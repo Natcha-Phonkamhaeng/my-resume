@@ -37,6 +37,10 @@ layout = dbc.Container([
 			html.Hr(),
 			html.H4(children=[html.I(className='bi bi-speedometer2 me-2 icon-color'), 'Skills']),
 			dcc.Graph(figure=skill()),
+			html.Hr(),
+			html.H4(['Contact']),
+			html.P(['Email: Natcha.Phonkamhaeng@gmail.com'], style={'color': 'grey'}),
+			html.P(['Phone No: 081-557-5214'], style={'color': 'grey'})
 			], width=7)
 		], justify='center')
 	])

@@ -23,7 +23,7 @@ layout = dbc.Container([
 				dbc.CardImg(src='assets/nobel_pic.png', top=True),
 				dbc.CardBody([
 					html.H4('Nobel Prize', className='card-title'),
-					html.P('Dashboard for the winners of nobel prize since 1901-2022', className='card-text', style={'color':'grey'}),
+					html.P('Data visualization dashboard for the winners of nobel prize since 1901-2022', className='card-text', style={'color':'grey'}),
 					dbc.Button(
 						html.A(children=[html.P(['Click'])], 
 							href='https://nobel-viz.onrender.com/',

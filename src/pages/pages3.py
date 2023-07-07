@@ -41,5 +41,5 @@ layout = dbc.Container([
 			html.Li(['Develope program for converting file to e-receipt portal'], style={'color': 'grey'}),
 
 			])
-		])
+		], style={'margin-left': '2rem'})
 	])
