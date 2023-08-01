@@ -1,9 +1,24 @@
 .navbar-nav{
 	margin-left :0;
 	font-size:20px;
-	text-align: 'center';
+	text-align: center;
 }
 
 .icon-color{
 	color: dodgerblue;
 }
+
+.project-left-button {
+	margin-right: 15px;
+	padding-bottom: 1px;
+}
+
+.project-right-button {
+	padding-bottom: 1px;
+}
+
+.education-header {
+	margin-left: 42px;
+	border-bottom: 5px solid green;
+}
+

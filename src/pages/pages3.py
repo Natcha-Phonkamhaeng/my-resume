@@ -37,7 +37,7 @@ layout = dbc.Container([
 			html.Li(['Reconcile withholding tax from Revenue Dept with GL'], style={'color': 'grey'}),
 			html.Li(['e-tax invoice/e-receipt project'], style={'color': 'grey'}),
 			html.Li(['Create tracking withholding tax from customers with GSheets'], style={'color': 'grey'}),
-			html.Li(['Develope Dashboard for activity in Finance Dept to managements'], style={'color': 'grey'}),
+			html.Li(['Develope dashboard productivity Finance Dept for managements'], style={'color': 'grey'}),
 			html.Li(['Develope program for converting file to e-receipt portal'], style={'color': 'grey'}),
 
 			])
