@@ -31,9 +31,17 @@ layout = dbc.Container([
 			html.H2(['Resume']),
 			html.P(['15 years in finance / 3 years in coding / masters degree in Data Science (studying)'], className='icon-color'),
 			html.Br(),
-			html.P(['15 years experience in financing field of Ocean Freight and Logistics Business. 3 years of coding specialized in\
-				dashboard, data cleaning ETL and data insight with the language of Python, JavaScript, CSS, HTML. \
-				Now looking for a job as a data analyst.'], 
+			html.P(['15 years experience in financing field of ocean freight and logistics business. 3 years of coding specialized in\
+				dashboard, data cleaning ETL and data insight with the language of Python, JavaScript, CSS, HTML and Github Version\
+				Control. Now looking for a job as a data analyst.',
+				html.A(
+					html.I(className='bi bi-cloud-arrow-down'), 
+					download="./assets/natchaResume.pdf", 
+					href="./assets/natchaResume.pdf",
+					title="download pdf",
+					style={"margin-left": '8px'}
+					)
+				], 
 				style={'justify':'center', 'color': 'grey'}),
 			html.Hr(),
 			html.H4(children=[html.I(className='bi bi-speedometer2 me-2 icon-color'), 'Skills']),
